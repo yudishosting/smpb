@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic'
 'use client'
 // app/admin/experiences/page.tsx
 import { useState, useEffect } from 'react'
