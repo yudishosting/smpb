@@ -1,0 +1,6 @@
+// app/admin/layout-wrapper.tsx -> replace layout.tsx with this approach
+// We need to wrap admin with SessionProvider
+
+// NOTE: The app/admin/layout.tsx already uses useSession which requires client.
+// We need a server layout that wraps with SessionProvider.
+// Replace app/admin/layout.tsx content:
