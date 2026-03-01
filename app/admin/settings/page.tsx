@@ -1,4 +1,3 @@
-export const dynamic = 'force-dynamic'
 'use client'
 // app/admin/settings/page.tsx
 import { useState, useEffect } from 'react'
@@ -85,7 +84,8 @@ export default function AdminSettings() {
             </div>
             <div>
               <label className="text-xs tracking-widest uppercase block mb-2" style={{ color: 'var(--muted)' }}>
-                Judul Hero (pisah baris dengan \n)
+                Judul Hero (pisah baris dengan 
+)
               </label>
               <textarea
                 rows={3}
@@ -93,7 +93,9 @@ export default function AdminSettings() {
                 onChange={(e) => setConfig({ ...config, hero_title: e.target.value })}
                 className="w-full px-4 py-3 text-sm bg-transparent outline-none resize-none"
                 style={{ border: '1px solid var(--border)', color: 'var(--text)' }}
-                placeholder="Membangun\nPengalaman\nDigital."
+                placeholder="Membangun
+Pengalaman
+Digital."
               />
             </div>
             <div>
